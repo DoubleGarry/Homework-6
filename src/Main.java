@@ -32,18 +32,24 @@ public class Main {
         for (int e=10; e >=-10; e=e-1 ){
             System.out.println(e);
         }
-
     }
     public static void task5(){
         System.out.println("Задача 5");
-
+        for (int r=1904; r<=2096; r=r+4 ){
+            System.out.println( r + " год является високосным");
+        }
     }
     public static void task6(){
         System.out.println("Задача 6");
+        for (int t=7; t<=98; t=t+7 ){
+            System.out.println(t);
+        }
 
     }
     public static void task7(){
         System.out.println("Задача 7");
-
+        for (int y=1; y<=512; y=y*2 ){
+            System.out.println(y);
+        }
     }
 }
